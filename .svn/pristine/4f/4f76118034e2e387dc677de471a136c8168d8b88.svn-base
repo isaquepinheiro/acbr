@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="5">
+    <PathDelim Value="\"/>
+    <Name Value="ACBr_PIXCD"/>
+    <Type Value="RunAndDesignTime"/>
+    <Author Value="Daniel Simões de Almeida"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <OtherUnitFiles Value="..\..\..\Fontes\ACBrPIXCD"/>
+        <UnitOutputDirectory Value="..\..\..\Lib\Lazarus\ACBrPIXCD\$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Description Value="ACBrPIXCD - Package para componentes relacionados a PIX e Carteira Digitais"/>
+    <License Value="LGPL"/>
+    <Version Minor="1"/>
+    <Files Count="35">
+      <Item1>
+        <Filename Value="..\..\..\Fontes\ACBrPIXCD\ACBrPIXCDReg.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="ACBrPIXCDReg"/>
+      </Item1>
+      <Item2>
+        <Filename Value="..\..\..\Fontes\ACBrPIXCD\ACBrPIXBase.pas"/>
+        <UnitName Value="ACBrPIXBase"/>
+      </Item2>
+      <Item3>
+        <Filename Value="..\..\..\Fontes\ACBrPIXCD\ACBrPIXUtil.pas"/>
+        <UnitName Value="ACBrPIXUtil"/>
+      </Item3>
+      <Item4>
+        <Filename Value="..\..\..\Fontes\ACBrPIXCD\ACBrPIXCD.pas"/>
+        <UnitName Value="ACBrPIXCD"/>
+      </Item4>
+      <Item5>
+        <Filename Value="..\..\..\Fontes\ACBrPIXCD\ACBrPIXBRCode.pas"/>
+        <UnitName Value="ACBrPIXBRCode"/>
+      </Item5>
+      <Item6>
+        <Filename Value="..\..\..\Fontes\ACBrPIXCD\ACBrPIXPSPItau.pas"/>
+        <UnitName Value="ACBrPIXPSPItau"/>
+      </Item6>
+      <Item7>
+        <Filename Value="..\..\..\Fontes\ACBrPIXCD\ACBrPIXPSPBancoDoBrasil.pas"/>
+        <UnitName Value="ACBrPIXPSPBancoDoBrasil"/>
+      </Item7>
+      <Item8>
+        <Filename Value="..\..\..\Fontes\ACBrPIXCD\ACBrPIXPSPSantander.pas"/>
+        <UnitName Value="ACBrPIXPSPSantander"/>
+      </Item8>
+      <Item9>
+        <Filename Value="..\..\..\Fontes\ACBrPIXCD\ACBrPIXPSPShipay.pas"/>
+        <UnitName Value="ACBrPIXPSPShipay"/>
+      </Item9>
+      <Item10>
+        <Filename Value="..\..\..\Fontes\ACBrPIXCD\ACBrPIXPSPSicredi.pas"/>
+        <UnitName Value="ACBrPIXPSPSicredi"/>
+      </Item10>
+      <Item11>
+        <Filename Value="..\..\..\Fontes\ACBrPIXCD\ACBrPIXPSPSicoob.pas"/>
+        <UnitName Value="ACBrPIXPSPSicoob"/>
+      </Item11>
+      <Item12>
+        <Filename Value="..\..\..\Fontes\ACBrPIXCD\ACBrPIXSchemasProblema.pas"/>
+        <UnitName Value="ACBrPIXSchemasProblema"/>
+      </Item12>
+      <Item13>
+        <Filename Value="..\..\..\Fontes\ACBrPIXCD\ACBrPIXSchemasCalendario.pas"/>
+        <UnitName Value="ACBrPIXSchemasCalendario"/>
+      </Item13>
+      <Item14>
+        <Filename Value="..\..\..\Fontes\ACBrPIXCD\ACBrPIXSchemasDevedor.pas"/>
+        <UnitName Value="ACBrPIXSchemasDevedor"/>
+      </Item14>
+      <Item15>
+        <Filename Value="..\..\..\Fontes\ACBrPIXCD\ACBrPIXSchemasLocation.pas"/>
+        <UnitName Value="ACBrPIXSchemasLocation"/>
+      </Item15>
+      <Item16>
+        <Filename Value="..\..\..\Fontes\ACBrPIXCD\ACBrPIXSchemasPaginacao.pas"/>
+        <UnitName Value="ACBrPIXSchemasPaginacao"/>
+      </Item16>
+      <Item17>
+        <Filename Value="..\..\..\Fontes\ACBrPIXCD\ACBrPIXSchemasDevolucao.pas"/>
+        <UnitName Value="ACBrPIXSchemasDevolucao"/>
+      </Item17>
+      <Item18>
+        <Filename Value="..\..\..\Fontes\ACBrPIXCD\ACBrPIXSchemasPix.pas"/>
+        <UnitName Value="ACBrPIXSchemasPix"/>
+      </Item18>
+      <Item19>
+        <Filename Value="..\..\..\Fontes\ACBrPIXCD\ACBrPIXSchemasParametrosConsultaPix.pas"/>
+        <UnitName Value="ACBrPIXSchemasParametrosConsultaPix"/>
+      </Item19>
+      <Item20>
+        <Filename Value="..\..\..\Fontes\ACBrPIXCD\ACBrPIXSchemasPixConsultados.pas"/>
+        <UnitName Value="ACBrPIXSchemasPixConsultados"/>
+      </Item20>
+      <Item21>
+        <Filename Value="..\..\..\Fontes\ACBrPIXCD\ACBrPIXSchemasCob.pas"/>
+        <UnitName Value="ACBrPIXSchemasCob"/>
+      </Item21>
+      <Item22>
+        <Filename Value="..\..\..\Fontes\ACBrPIXCD\ACBrPIXSchemasParametrosConsultaCob.pas"/>
+        <UnitName Value="ACBrPIXSchemasParametrosConsultaCob"/>
+      </Item22>
+      <Item23>
+        <Filename Value="..\..\..\Fontes\ACBrPIXCD\ACBrPIXSchemasCobsConsultadas.pas"/>
+        <UnitName Value="ACBrPIXSchemasCobsConsultadas"/>
+      </Item23>
+      <Item24>
+        <Filename Value="..\..\..\Fontes\ACBrPIXCD\ACBrPIXSchemasCobV.pas"/>
+        <UnitName Value="ACBrPIXSchemasCobV"/>
+      </Item24>
+      <Item25>
+        <Filename Value="..\..\..\Fontes\ACBrPIXCD\ACBrPIXSchemasCobsVConsultadas.pas"/>
+        <UnitName Value="ACBrPIXSchemasCobsVConsultadas"/>
+      </Item25>
+      <Item26>
+        <Filename Value="..\..\..\Fontes\ACBrPIXCD\ACBrPIXSchemasLoteCobV.pas"/>
+        <UnitName Value="ACBrPIXSchemasLoteCobV"/>
+      </Item26>
+      <Item27>
+        <Filename Value="..\..\..\Fontes\ACBrPIXCD\ACBrPIXSchemasParametrosConsultaLote.pas"/>
+        <UnitName Value="ACBrPIXSchemasParametrosConsultaLote"/>
+      </Item27>
+      <Item28>
+        <Filename Value="..\..\..\Fontes\ACBrPIXCD\ACBrPIXSchemasLotesCobVConsultadas.pas"/>
+        <UnitName Value="ACBrPIXSchemasLotesCobVConsultadas"/>
+      </Item28>
+      <Item29>
+        <Filename Value="..\..\..\Fontes\ACBrPIXCD\ACBrShipaySchemas.pas"/>
+        <UnitName Value="ACBrShipaySchemas"/>
+      </Item29>
+      <Item30>
+        <Filename Value="..\..\..\Fontes\ACBrPIXCD\ACBrPIXPSPInter.pas"/>
+        <UnitName Value="ACBrPIXPSPInter"/>
+      </Item30>
+      <Item31>
+        <Filename Value="..\..\..\Fontes\ACBrPIXCD\ACBrPIXPSPPagSeguro.pas"/>
+        <UnitName Value="ACBrPIXPSPPagSeguro"/>
+      </Item31>
+      <Item32>
+        <Filename Value="..\..\..\Fontes\ACBrPIXCD\ACBrPIXPSPGerenciaNet.pas"/>
+        <UnitName Value="ACBrPIXPSPGerenciaNet"/>
+      </Item32>
+      <Item33>
+        <Filename Value="..\..\..\Fontes\ACBrPIXCD\ACBrPIXPSPBradesco.pas"/>
+        <UnitName Value="ACBrPIXPSPBradesco"/>
+      </Item33>
+      <Item34>
+        <Filename Value="..\..\..\Fontes\ACBrPIXCD\ACBrPIXPSPPixPDV.pas"/>
+        <UnitName Value="ACBrPIXPSPPixPDV"/>
+      </Item34>
+      <Item35>
+        <Filename Value="..\..\..\Fontes\ACBrPIXCD\ACBrPIXSchemasPixPDV.pas"/>
+        <UnitName Value="ACBrPIXSchemasPixPDV"/>
+      </Item35>
+    </Files>
+    <CompatibilityMode Value="True"/>
+    <RequiredPkgs Count="2">
+      <Item1>
+        <PackageName Value="ACBrOpenSSL"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="ACBrDiversos"/>
+      </Item2>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <UseFileFilters Value="True"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>
